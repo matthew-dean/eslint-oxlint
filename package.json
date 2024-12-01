@@ -1,0 +1,32 @@
+{
+  "name": "eslint-oxlint",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "~22.10.1",
+    "eslint": "~9.16.0",
+    "oxlint": "~0.14.0",
+    "typescript": "~5.7.2",
+    "vitest": "~2.1.6"
+  },
+  "overrides": {
+    "oxlint": "~0.14.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "oxlint": "~0.14.0"
+    }
+  },
+  "dependencies": {
+    "@teambit/oxc.linter.oxlint-node": "~0.0.1",
+    "eslint-plugin-oxlint": "~0.14.0",
+    "fast-glob": "~3.3.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
